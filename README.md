@@ -10,12 +10,12 @@ Corporate portal project
 - [Demo](#demo)
 
 #### Stack
-- Maven/ Spring Framework (MVC, DataJpa, Security, Test/ JPA(Hibernate)/ Jackson
+- Maven/ Spring Framework (MVC, DataJpa, Security, Test/ JPA(Hibernate)/ Jackson / Angular / PostgreSQL
 
 #### Description
 - A corporate portal: chat, messenger, task manager.
 
-### Plan
+#### Plan
 - ...
 
 #### Demo
