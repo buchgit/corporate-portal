@@ -5,31 +5,7 @@
              xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
 	http://www.springframework.org/schema/security http://www.springframework.org/schema/security/spring-security.xsd">
 
-    <http pattern="/resources/**" security="none"/>
-
-    <http pattern="/**" use-expressions="true" name="restSecurityFilterChain" create-session="stateless">
-        <http-basic/>
-        <intercept-url pattern="/admin/**" access="hasRole('ADMIN')"/>
-        <intercept-url pattern="/profile/register" access="isAnonymous()"/>
-        <intercept-url pattern="/**" access="isAuthenticated()"/>
-        <csrf disabled="true"/>
-    </http>
-
-    <beans:bean class="org.springframework.security.crypto.factory.PasswordEncoderFactories" id="passwordEncoder" factory-method="createDelegatingPasswordEncoder"/>
-
-    <http>
-        <intercept-url pattern="/login" access="permitAll()"/>
-        <intercept-url pattern="/profile/register" access="isAnonymous()"/>
-
-        <intercept-url pattern="/admin/**" access="hasRole('ADMIN')"/>
-        <intercept-url pattern="/**" access="isAuthenticated()"/>
-
-        <form-login login-page="/login" default-target-url="/meals"
-                    authentication-failure-url="/login?error=true"
-                    login-processing-url="/spring_security_check"/>
-        <logout logout-success-url="/login"/>
-        <!--<csrf disabled="true"/>-->
-    </http>
+    <http pattern="/**" security="none"/>
 
 
 </beans:beans>
