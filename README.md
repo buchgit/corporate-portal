@@ -36,6 +36,7 @@ create:
         - blocked (boolean)
         - registered (date)
         - email (string)
+        - password (string)
    - Message
         - text (string)
         - date (date,time)
