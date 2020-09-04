@@ -11,7 +11,7 @@ Corporate portal project
 - [Demo](#demo)
 
 ### Stack
-- Maven/ Spring Framework (MVC, DataJpa, Security, Test/ JUnit 5/ JPA(Hibernate)/ Jackson / Angular / PostgreSQL
+- Maven/ Spring Framework (MVC, DataJpa, Security, Test) / JUnit 5/ JPA(Hibernate)/ Jackson / Angular / PostgreSQL
 
 ### Description
 - A corporate portal: chat, messenger, task manager, crm.
@@ -28,10 +28,30 @@ create:
 * write sql script for populate tables with test data
 * create model, repository, service, controller for:
    - User
-   - Roles
+    - first name (string)
+    - last name (string)
+    - roles (enum)
+    - blocked (boolean)
+    - registered (date)
+    - email (string)
    - Message
+    - text (string)
+    - date (date,time)
+    - delivered (boolean)
+    - ...
+    - task (task)
    - Room
+    - name (string)
+    - private (boolean)
+    - ...
    - Task
+    - producer (user)
+    - consumer (user)
+    - message (message)
+    - creationDate (date,time)
+    - executionDate (date,time)
+    - done
+    
     
 ### Demo
 - ...
