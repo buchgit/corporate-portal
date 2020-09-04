@@ -42,6 +42,7 @@
 
         <!--Tools-->
         <ehcache.version>3.8.1</ehcache.version>
+        <tomcat.version>9.0.36</tomcat.version>
     </properties>
 
     <build>
@@ -231,6 +232,12 @@
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
             <version>${postgresql.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.tomcat</groupId>
+            <artifactId>tomcat-jdbc</artifactId>
+            <version>${tomcat.version}</version>
+            <scope>provided</scope>
         </dependency>
 
     </dependencies>
