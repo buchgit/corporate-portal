@@ -26,6 +26,8 @@ create:
 ### Current tasks 
 * write sql script for init tables
 * write sql script for populate tables with test data
+* user API (mapping, curl)
+* admin API  (mapping, curl)
 * create model, repository, service, controller for:
    - User
     - first name (string)
