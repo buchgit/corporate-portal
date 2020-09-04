@@ -5,23 +5,34 @@ Corporate portal project
 ===============================
 
 - [Stack](#stack)
-- [Description & plan of this project](#description)
+- [Project description](#description)
 - [Plan](#plan)
 - [Current tasks](#tasks)
 - [Demo](#demo)
 
-#### Stack
-- Maven/ Spring Framework (MVC, DataJpa, Security, Test/ JPA(Hibernate)/ Jackson / Angular / PostgreSQL
+### Stack
+- Maven/ Spring Framework (MVC, DataJpa, Security, Test/ JUnit 5/ JPA(Hibernate)/ Jackson / Angular / PostgreSQL
 
-#### Description
-- A corporate portal: chat, messenger, task manager.
+### Description
+- A corporate portal: chat, messenger, task manager, crm.
 
-#### Plan
-- ...
+### Plan
+create:
+- chat
+- messenger
+- task manager
+- crm
 
-#### Current tasks 
-- ...
-
-#### Demo
+### Current tasks 
+* write sql script for init tables
+* write sql script for populate tables with test data
+* create model, repository, service, controller for:
+   - User
+   - Roles
+   - Message
+   - Room
+   - Task
+    
+### Demo
 - ...
 
