@@ -55,6 +55,11 @@ create:
     - executionDate (date,time)
     - done (boolean)
     
+   - Roles (enum)
+    - user
+    - admin
+    - client
+    - ...
     
 ### Demo
 - ...
