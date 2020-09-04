@@ -7,6 +7,7 @@ Corporate portal project
 - [Stack](#stack)
 - [Description & plan of this project](#description)
 - [Plan](#plan)
+- [Current tasks](#tasks)
 - [Demo](#demo)
 
 #### Stack
@@ -16,6 +17,9 @@ Corporate portal project
 - A corporate portal: chat, messenger, task manager.
 
 #### Plan
+- ...
+
+#### Current tasks 
 - ...
 
 #### Demo
