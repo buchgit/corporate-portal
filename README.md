@@ -29,37 +29,37 @@ create:
 * user API (mapping, curl)
 * admin API  (mapping, curl)
 * create model, repository, service, controller for:
-   - User
-    - first name (string)
-    - last name (string)
-    - roles (enum)
-    - blocked (boolean)
-    - registered (date)
-    - email (string)
+   * User
+        - first name (string)
+        - last name (string)
+        - roles (enum)
+        - blocked (boolean)
+        - registered (date)
+        - email (string)
    - Message
-    - text (string)
-    - date (date,time)
-    - delivered (boolean)
-    - ...
-    - task (task)
+        - text (string)
+        - date (date,time)
+        - delivered (boolean)
+        - ...
+        - task (task)
    - Room
-    - name (string)
-    - private (boolean)
-    - ...
+        - name (string)
+        - private (boolean)
+        - ...
    - Task
-    - parent (task)
-    - producer (user)
-    - consumer (user)
-    - message (message)
-    - creationDate (date,time)
-    - executionDate (date,time)
-    - done (boolean)
+        - parent (task)
+        - producer (user)
+        - consumer (user)
+        - message (message)
+        - creationDate (date,time)
+        - executionDate (date,time)
+        - done (boolean)
     
    - Roles (enum)
-    - user
-    - admin
-    - client
-    - ...
+        - user
+        - admin
+        - client
+        - ...
     
 ### Demo
 - ...
