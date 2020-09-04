@@ -45,12 +45,13 @@ create:
     - private (boolean)
     - ...
    - Task
+    - parent (task)
     - producer (user)
     - consumer (user)
     - message (message)
     - creationDate (date,time)
     - executionDate (date,time)
-    - done
+    - done (boolean)
     
     
 ### Demo
